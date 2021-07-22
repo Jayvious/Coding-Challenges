@@ -1,0 +1,12 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name = "numbers" type = "Integer[]" default = "[16, 40, 50, 90, 20, 69]"/>
+    <aura:attribute name = "perm" type = "List"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/> 
+    
+    <div>
+        <aura:iteration items="{!v.perm}" var="array">
+        	<p>{!array}</p><br></br>
+    	</aura:iteration>
+    </div>
+	
+</aura:component>
