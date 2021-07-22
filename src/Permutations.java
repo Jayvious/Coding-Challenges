@@ -3,7 +3,7 @@ import java.util.*;
 
 class Permutations{
     public static void main(String[] args){
-        final int[] array = new int[]{1,2,3,9,8,7,5,4};
+        final int[] array = new int[]{10,20,30};
 
         for(int i = 0; i < array.length; i++){
             int[] manipulate = array.clone();
