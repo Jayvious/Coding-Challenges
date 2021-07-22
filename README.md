@@ -1,14 +1,3 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+For this version of the Coding Challenge, I made use of a Aura Component showing each permuataion on the view. All the code is in the Javascript Helper file of the Aura Component Bundle. Does the same thing as the Java version but just wanted to try out in the Aura Component. 
